@@ -18,10 +18,16 @@ $ zz
 ## Install
 
 ```sh
+cargo install --git https://github.com/rewdy/zztop
+```
+
+Or from a local clone:
+
+```sh
 cargo install --path .
 ```
 
-This puts the `zztop` binary on your `PATH` (typically `~/.cargo/bin`).
+Either way, this puts the `zztop` binary on your `PATH` (typically `~/.cargo/bin`).
 
 ## Setup
 
